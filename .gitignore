@@ -1,0 +1,6 @@
+.DS_Store
+app/cache/*
+app/logs/*
+app/config/parameters.yml
+app/bootstrap.php.cache
+vendor/*

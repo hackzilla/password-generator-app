@@ -1,0 +1,4 @@
+
+hackzilla_password_generator:
+    resource: "@HackzillaPasswordGeneratorBundle/Resources/config/routing.yml"
+    prefix:   /
