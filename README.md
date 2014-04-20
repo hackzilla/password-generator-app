@@ -1,8 +1,8 @@
 Password Generator App
 ======================
 
-1) Installion
--------------
+1) Installation
+---------------
 
 You have three different ways to download the app.
 
