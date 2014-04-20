@@ -27,16 +27,44 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    form:
+        resources:
+          - 'HackzillaBootstrapBundle:Form:fields.html.twig'
 
 # Assetic Configuration
 assetic:
     debug:          "%kernel.debug%"
     use_controller: false
     bundles:        [ ]
-    #java: /usr/bin/java
+    java: /usr/bin/java
     filters:
-        cssrewrite: ~
-        #closure:
-        #    jar: "%kernel.root_dir%/Resources/java/compiler.jar"
-        #yui_css:
-        #    jar: "%kernel.root_dir%/Resources/java/yuicompressor-2.4.7.jar"
+      cssembed:
+        jar: %kernel.root_dir%/Resources/java/cssembed-0.4.5.jar
+      cssrewrite: ~
+      yui_js:
+        jar: %kernel.root_dir%/Resources/java/yuicompressor-2.4.7.jar
+      less:
+          node: /usr/local/bin/node
+          node_paths: [/usr/local/lib/node_modules]
+          apply_to: "\.less$"
+    assets:
+      bootstrap_js:
+          inputs:
+              - '%kernel.root_dir%/../vendor/twbs/bootstrap/js/affix.js'
+              - '%kernel.root_dir%/../vendor/twbs/bootstrap/js/alert.js'
+              - '%kernel.root_dir%/../vendor/twbs/bootstrap/js/button.js'
+              - '%kernel.root_dir%/../vendor/twbs/bootstrap/js/carousel.js'
+              - '%kernel.root_dir%/../vendor/twbs/bootstrap/js/collapse.js'
+              - '%kernel.root_dir%/../vendor/twbs/bootstrap/js/dropdown.js'
+              - '%kernel.root_dir%/../vendor/twbs/bootstrap/js/modal.js'
+              - '%kernel.root_dir%/../vendor/twbs/bootstrap/js/tooltip.js'
+              - '%kernel.root_dir%/../vendor/twbs/bootstrap/js/popover.js'
+              - '%kernel.root_dir%/../vendor/twbs/bootstrap/js/scrollspy.js'
+              - '%kernel.root_dir%/../vendor/twbs/bootstrap/js/tab.js'
+              - '%kernel.root_dir%/../vendor/twbs/bootstrap/js/transition.js'
+          filters: [?yui_js]
+      bootstrap_less:
+          inputs:
+              - '@HackzillaBootstrapBundle/Resources/less/compile.less'
+              - 'css/layout.css'
+          filters: [less,cssembed]

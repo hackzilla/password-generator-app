@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "e78e113ccbdf514d61a553369192a244",
+    "hash": "42c397529030faf13814ecbaf64d98a3",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -411,6 +411,41 @@
             "time": "2013-01-12 18:59:04"
         },
         {
+            "name": "hackzilla/bootstrap-bundle",
+            "version": "0.5",
+            "target-dir": "Hackzilla/Bundle/BootstrapBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hackzilla/bootstrap-bundle.git",
+                "reference": "80b35fab03c937f798787f0d4fc595ac7471425b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hackzilla/bootstrap-bundle/zipball/80b35fab03c937f798787f0d4fc595ac7471425b",
+                "reference": "80b35fab03c937f798787f0d4fc595ac7471425b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "twbs/bootstrap": "3.1.*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Hackzilla\\Bundle\\BootstrapBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Bootstrap handler bundle",
+            "support": {
+                "source": "https://github.com/hackzilla/bootstrap-bundle/tree/0.5",
+                "issues": "https://github.com/hackzilla/bootstrap-bundle/issues"
+            },
+            "time": "2014-04-19 20:31:34"
+        },
+        {
             "name": "hackzilla/password-generator",
             "version": "0.3",
             "target-dir": "Hackzilla/PasswordGenerator",
@@ -451,17 +486,17 @@
         },
         {
             "name": "hackzilla/password-generator-bundle",
-            "version": "0.3",
+            "version": "0.4",
             "target-dir": "Hackzilla/Bundle/PasswordGeneratorBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator-bundle.git",
-                "reference": "63af6cd141aa396b7241e750d001516e0e924e0a"
+                "reference": "26ec1c0598c40e5362b7b87f492eb002f63c9629"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/63af6cd141aa396b7241e750d001516e0e924e0a",
-                "reference": "63af6cd141aa396b7241e750d001516e0e924e0a",
+                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/26ec1c0598c40e5362b7b87f492eb002f63c9629",
+                "reference": "26ec1c0598c40e5362b7b87f492eb002f63c9629",
                 "shasum": ""
             },
             "require": {
@@ -475,6 +510,7 @@
                     "Hackzilla\\Bundle\\PasswordGeneratorBundle": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -482,15 +518,12 @@
                 {
                     "name": "Daniel Platt",
                     "email": "github@ofdan.co.uk",
-                    "homepage": "http://www.hackzilla.org"
+                    "homepage": "http://www.hackzilla.org",
+                    "role": "Developer"
                 }
             ],
             "description": "Password Generator Bundle",
-            "support": {
-                "source": "https://github.com/hackzilla/password-generator-bundle/tree/master",
-                "issues": "https://github.com/hackzilla/password-generator-bundle/issues"
-            },
-            "time": "2014-04-17 21:30:11"
+            "time": "2014-04-20 07:53:19"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -1148,6 +1181,48 @@
                 "framework"
             ],
             "time": "2014-04-03 05:42:39"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "a365d8689c3f3cee7f1acf86b61270ecca8e106d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/a365d8689c3f3cee7f1acf86b61270ecca8e106d",
+                "reference": "a365d8689c3f3cee7f1acf86b61270ecca8e106d",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.",
+            "homepage": "http://getbootstrap.com",
+            "keywords": [
+                "bootstrap",
+                "css"
+            ],
+            "time": "2014-02-13 17:24:59"
         },
         {
             "name": "twig/extensions",

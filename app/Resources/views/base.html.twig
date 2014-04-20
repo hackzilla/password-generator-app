@@ -1,13 +1,60 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="utf-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        {% stylesheets output='bootstrap.css' combine=true
+        '@bootstrap_less' %}
+        <link href="{{ asset_url|replace({'/app_dev.php': ''}) }}" type="text/css" rel="stylesheet" >
+        {% endstylesheets %}
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+        <div class="container">
+{#
+            <div class="masthead clearfix">
+                <div class="inner">
+                    <h3 class="masthead-brand">Cover</h3>
+                    {#  <ul class="nav masthead-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    # }
+                </div>
+            </div>
+#}
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                {% block body %}
+                    <h1 class="cover-heading">Cover your page.</h1>
+                    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+                    <p class="lead">
+                        <a href="#" class="btn btn-lg btn-default">Learn more</a>
+                    </p>
+                {% endblock %}
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+{#
+            <div class="footer">
+                    <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+#}
+        </div>
+
+        {% javascripts filter='?yui_js' combine=true output='bootstrap.js'
+       '@bootstrap_js' %}
+        <script src="{{ asset_url }}" type="text/javascript"></script>
+        {% endjavascripts %}
+
+    {% block javascripts %}{% endblock %}
+</body>
 </html>
