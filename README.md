@@ -1,7 +1,7 @@
 Password Generator App
 ======================
 
-1) Installation
+Installation
 ---------------
 
 You have three different ways to download the app.
@@ -18,6 +18,8 @@ b) Git
 
 ```bash
 git clone git@github.com:hackzilla/password-generator-app.git
+composer install
+app/console cache:clear --env=prod --no-debug
 ```
 
 c) Download
@@ -29,6 +31,6 @@ https://github.com/hackzilla/password-generator-app/archive/master.zip
 Once installed run:
 
 ```bash
-composer update
+composer install
 app/console cache:clear --env=prod --no-debug
 ```
