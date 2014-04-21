@@ -34,3 +34,9 @@ Once installed run:
 composer install
 app/console cache:clear --env=prod --no-debug
 ```
+
+Components
+----------
+
+* Password Generator Library [https://github.com/hackzilla/password-generator]
+* Password Generator Bundle [https://github.com/hackzilla/password-generator-bundle]
