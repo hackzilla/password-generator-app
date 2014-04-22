@@ -5772,9 +5772,6 @@ button.close {
     display: none !important;
   }
 }
-/*
- * Base structure
- */
 html,
 body {
   height: 100%;
