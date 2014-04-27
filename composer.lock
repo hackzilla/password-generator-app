@@ -447,17 +447,17 @@
         },
         {
             "name": "hackzilla/password-generator",
-            "version": "0.3",
+            "version": "0.5",
             "target-dir": "Hackzilla/PasswordGenerator",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator.git",
-                "reference": "d90c71902660a197254dca5b40e8bdbfb7b05849"
+                "reference": "eb113156cb95f318d59256154b6f5a57a6b81da3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator/zipball/d90c71902660a197254dca5b40e8bdbfb7b05849",
-                "reference": "d90c71902660a197254dca5b40e8bdbfb7b05849",
+                "url": "https://api.github.com/repos/hackzilla/password-generator/zipball/eb113156cb95f318d59256154b6f5a57a6b81da3",
+                "reference": "eb113156cb95f318d59256154b6f5a57a6b81da3",
                 "shasum": ""
             },
             "require": {
@@ -482,25 +482,25 @@
                 }
             ],
             "description": "Password Generator Library",
-            "time": "2014-04-17 19:38:21"
+            "time": "2014-04-27 14:46:02"
         },
         {
             "name": "hackzilla/password-generator-bundle",
-            "version": "0.4",
+            "version": "0.4.1",
             "target-dir": "Hackzilla/Bundle/PasswordGeneratorBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator-bundle.git",
-                "reference": "26ec1c0598c40e5362b7b87f492eb002f63c9629"
+                "reference": "2988a159ddf8b163b50e458dd75f9f89c387210e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/26ec1c0598c40e5362b7b87f492eb002f63c9629",
-                "reference": "26ec1c0598c40e5362b7b87f492eb002f63c9629",
+                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/2988a159ddf8b163b50e458dd75f9f89c387210e",
+                "reference": "2988a159ddf8b163b50e458dd75f9f89c387210e",
                 "shasum": ""
             },
             "require": {
-                "hackzilla/password-generator": "~0.1",
+                "hackzilla/password-generator": "~0.4",
                 "php": ">=5.3.2",
                 "symfony/symfony": "~2.3"
             },
@@ -523,7 +523,7 @@
                 }
             ],
             "description": "Password Generator Bundle",
-            "time": "2014-04-20 07:53:19"
+            "time": "2014-04-21 15:52:48"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -650,16 +650,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.8.0",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "392ef35fd470638e08d0160d6b1cbab63cb23174"
+                "reference": "65026b610f8c19e61d7242f600530677b0466aac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/392ef35fd470638e08d0160d6b1cbab63cb23174",
-                "reference": "392ef35fd470638e08d0160d6b1cbab63cb23174",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/65026b610f8c19e61d7242f600530677b0466aac",
+                "reference": "65026b610f8c19e61d7242f600530677b0466aac",
                 "shasum": ""
             },
             "require": {
@@ -687,7 +687,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8.x-dev"
+                    "dev-master": "1.9.x-dev"
                 }
             },
             "autoload": {
@@ -714,7 +714,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-03-23 19:50:26"
+            "time": "2014-04-24 13:29:03"
         },
         {
             "name": "psr/log",
@@ -1074,16 +1074,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.3.12",
+            "version": "v2.3.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "3574df3d5e0039f3225007b8be534df5c4104503"
+                "reference": "9c4b11915d7409a9cecd155d954f2ade273f3359"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/3574df3d5e0039f3225007b8be534df5c4104503",
-                "reference": "3574df3d5e0039f3225007b8be534df5c4104503",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/9c4b11915d7409a9cecd155d954f2ade273f3359",
+                "reference": "9c4b11915d7409a9cecd155d954f2ade273f3359",
                 "shasum": ""
             },
             "require": {
@@ -1180,7 +1180,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-04-03 05:42:39"
+            "time": "2014-04-27 08:34:33"
         },
         {
             "name": "twbs/bootstrap",
