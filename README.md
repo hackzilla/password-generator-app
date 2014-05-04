@@ -1,6 +1,12 @@
 Password Generator App
 ======================
 
+Demo
+----
+
+A setup version is available for use at [http://passwords.ofdan.com/]
+
+
 Installation
 ---------------
 
