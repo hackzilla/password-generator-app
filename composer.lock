@@ -444,17 +444,17 @@
         },
         {
             "name": "hackzilla/password-generator",
-            "version": "0.5",
+            "version": "0.6.1",
             "target-dir": "Hackzilla/PasswordGenerator",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator.git",
-                "reference": "eb113156cb95f318d59256154b6f5a57a6b81da3"
+                "reference": "7c092b2ac0314aaaf0dd0e360797a60af22cf4f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator/zipball/eb113156cb95f318d59256154b6f5a57a6b81da3",
-                "reference": "eb113156cb95f318d59256154b6f5a57a6b81da3",
+                "url": "https://api.github.com/repos/hackzilla/password-generator/zipball/7c092b2ac0314aaaf0dd0e360797a60af22cf4f9",
+                "reference": "7c092b2ac0314aaaf0dd0e360797a60af22cf4f9",
                 "shasum": ""
             },
             "require": {
@@ -479,25 +479,25 @@
                 }
             ],
             "description": "Password Generator Library",
-            "time": "2014-04-27 14:46:02"
+            "time": "2014-05-06 21:01:10"
         },
         {
             "name": "hackzilla/password-generator-bundle",
-            "version": "0.4.1",
+            "version": "0.5",
             "target-dir": "Hackzilla/Bundle/PasswordGeneratorBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator-bundle.git",
-                "reference": "2988a159ddf8b163b50e458dd75f9f89c387210e"
+                "reference": "c804df59505591e451f329349b447ecd6e4b769f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/2988a159ddf8b163b50e458dd75f9f89c387210e",
-                "reference": "2988a159ddf8b163b50e458dd75f9f89c387210e",
+                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/c804df59505591e451f329349b447ecd6e4b769f",
+                "reference": "c804df59505591e451f329349b447ecd6e4b769f",
                 "shasum": ""
             },
             "require": {
-                "hackzilla/password-generator": "~0.4",
+                "hackzilla/password-generator": "~0.6",
                 "php": ">=5.3.2",
                 "symfony/symfony": "~2.3"
             },
@@ -520,7 +520,7 @@
                 }
             ],
             "description": "Password Generator Bundle",
-            "time": "2014-04-21 15:52:48"
+            "time": "2014-05-08 16:16:18"
         },
         {
             "name": "incenteev/composer-parameter-handler",
