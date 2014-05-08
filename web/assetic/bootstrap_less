@@ -5782,3 +5782,24 @@ body {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
 }
+body > .container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -3.5em;
+  /* the bottom margin is the negative value of the footer's height */
+}
+.footer,
+.push {
+  height: 3.5em;
+  /* .push must be the same height as .footer */
+}
+.footer {
+  background-color: #444;
+  text-align: center;
+  padding-top: 1em;
+}
+.password-mode {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
