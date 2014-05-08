@@ -22,5 +22,9 @@ body > .container {
     background-color: #444;
     text-align: center;
     padding-top: 1em;
+}
 
+.password-mode {
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
