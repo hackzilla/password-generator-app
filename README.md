@@ -1,6 +1,8 @@
 Password Generator App
 ======================
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/c590e76d-ae4a-402f-af96-759b6acc9ec5/big.png)](https://insight.sensiolabs.com/projects/c590e76d-ae4a-402f-af96-759b6acc9ec5)
+
 Demo
 ----
 
