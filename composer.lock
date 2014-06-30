@@ -1,7 +1,8 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
     "hash": "42c397529030faf13814ecbaf64d98a3",
     "packages": [
@@ -221,16 +222,16 @@
         },
         {
             "name": "doctrine/common",
-            "version": "v2.4.1",
+            "version": "v2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "ceb18cf9b0230f3ea208b6238130fd415abda0a7"
+                "reference": "5db6ab40e4c531f14dad4ca96a394dfce5d4255b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/ceb18cf9b0230f3ea208b6238130fd415abda0a7",
-                "reference": "ceb18cf9b0230f3ea208b6238130fd415abda0a7",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/5db6ab40e4c531f14dad4ca96a394dfce5d4255b",
+                "reference": "5db6ab40e4c531f14dad4ca96a394dfce5d4255b",
                 "shasum": ""
             },
             "require": {
@@ -240,6 +241,9 @@
                 "doctrine/inflector": "1.*",
                 "doctrine/lexer": "1.*",
                 "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
             },
             "type": "library",
             "extra": {
@@ -277,9 +281,9 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -292,7 +296,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2013-09-07 10:20:34"
+            "time": "2014-05-21 19:28:51"
         },
         {
             "name": "doctrine/inflector",
@@ -444,17 +448,17 @@
         },
         {
             "name": "hackzilla/password-generator",
-            "version": "0.6.1",
+            "version": "0.6.2",
             "target-dir": "Hackzilla/PasswordGenerator",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator.git",
-                "reference": "7c092b2ac0314aaaf0dd0e360797a60af22cf4f9"
+                "reference": "7531640b6f17421075e84a208a86741e928b231f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator/zipball/7c092b2ac0314aaaf0dd0e360797a60af22cf4f9",
-                "reference": "7c092b2ac0314aaaf0dd0e360797a60af22cf4f9",
+                "url": "https://api.github.com/repos/hackzilla/password-generator/zipball/7531640b6f17421075e84a208a86741e928b231f",
+                "reference": "7531640b6f17421075e84a208a86741e928b231f",
                 "shasum": ""
             },
             "require": {
@@ -479,7 +483,7 @@
                 }
             ],
             "description": "Password Generator Library",
-            "time": "2014-05-06 21:01:10"
+            "time": "2014-05-20 19:26:05"
         },
         {
             "name": "hackzilla/password-generator-bundle",
@@ -647,16 +651,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.9.1",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "65026b610f8c19e61d7242f600530677b0466aac"
+                "reference": "25b16e801979098cb2f120e697bfce454b18bf23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/65026b610f8c19e61d7242f600530677b0466aac",
-                "reference": "65026b610f8c19e61d7242f600530677b0466aac",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/25b16e801979098cb2f120e697bfce454b18bf23",
+                "reference": "25b16e801979098cb2f120e697bfce454b18bf23",
                 "shasum": ""
             },
             "require": {
@@ -684,7 +688,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9.x-dev"
+                    "dev-master": "1.10.x-dev"
                 }
             },
             "autoload": {
@@ -711,7 +715,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-04-24 13:29:03"
+            "time": "2014-06-04 16:30:04"
         },
         {
             "name": "psr/log",
@@ -850,17 +854,17 @@
         },
         {
             "name": "sensio/generator-bundle",
-            "version": "v2.3.4",
+            "version": "v2.3.5",
             "target-dir": "Sensio/Bundle/GeneratorBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
-                "reference": "4a7b126e9c22f858e3584b19ddce6e5bdd7677ee"
+                "reference": "8b7a33aa3d22388443b6de0b0cf184122e9f60d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/4a7b126e9c22f858e3584b19ddce6e5bdd7677ee",
-                "reference": "4a7b126e9c22f858e3584b19ddce6e5bdd7677ee",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/8b7a33aa3d22388443b6de0b0cf184122e9f60d2",
+                "reference": "8b7a33aa3d22388443b6de0b0cf184122e9f60d2",
                 "shasum": ""
             },
             "require": {
@@ -896,7 +900,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
-            "time": "2013-08-21 18:09:35"
+            "time": "2014-04-28 14:01:06"
         },
         {
             "name": "symfony/assetic-bundle",
@@ -1071,16 +1075,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.3.13",
+            "version": "v2.3.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "9c4b11915d7409a9cecd155d954f2ade273f3359"
+                "reference": "069683a14eb361f892c9bdc9d10d4f5dac3c0ee3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/9c4b11915d7409a9cecd155d954f2ade273f3359",
-                "reference": "9c4b11915d7409a9cecd155d954f2ade273f3359",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/069683a14eb361f892c9bdc9d10d4f5dac3c0ee3",
+                "reference": "069683a14eb361f892c9bdc9d10d4f5dac3c0ee3",
                 "shasum": ""
             },
             "require": {
@@ -1177,7 +1181,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-04-27 08:34:33"
+            "time": "2014-05-31 02:04:21"
         },
         {
             "name": "twbs/bootstrap",
