@@ -439,17 +439,17 @@
         },
         {
             "name": "hackzilla/password-generator",
-            "version": "0.6.2",
+            "version": "0.7.5",
             "target-dir": "Hackzilla/PasswordGenerator",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator.git",
-                "reference": "7531640b6f17421075e84a208a86741e928b231f"
+                "reference": "b9843d2ae04cb4bf4f9a7a79c9108044b70031d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator/zipball/7531640b6f17421075e84a208a86741e928b231f",
-                "reference": "7531640b6f17421075e84a208a86741e928b231f",
+                "url": "https://api.github.com/repos/hackzilla/password-generator/zipball/b9843d2ae04cb4bf4f9a7a79c9108044b70031d9",
+                "reference": "b9843d2ae04cb4bf4f9a7a79c9108044b70031d9",
                 "shasum": ""
             },
             "require": {
@@ -469,30 +469,29 @@
                 {
                     "name": "Daniel Platt",
                     "email": "github@ofdan.co.uk",
-                    "homepage": "http://www.hackzilla.org",
-                    "role": "Developer"
+                    "homepage": "http://www.hackzilla.org"
                 }
             ],
             "description": "Password Generator Library",
-            "time": "2014-05-20 19:26:05"
+            "time": "2014-10-12 09:13:41"
         },
         {
             "name": "hackzilla/password-generator-bundle",
-            "version": "0.5",
+            "version": "0.7",
             "target-dir": "Hackzilla/Bundle/PasswordGeneratorBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator-bundle.git",
-                "reference": "c804df59505591e451f329349b447ecd6e4b769f"
+                "reference": "61da6a2e4797d90e91b83622bb288ac00a3ce130"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/c804df59505591e451f329349b447ecd6e4b769f",
-                "reference": "c804df59505591e451f329349b447ecd6e4b769f",
+                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/61da6a2e4797d90e91b83622bb288ac00a3ce130",
+                "reference": "61da6a2e4797d90e91b83622bb288ac00a3ce130",
                 "shasum": ""
             },
             "require": {
-                "hackzilla/password-generator": "~0.6",
+                "hackzilla/password-generator": "~0.7",
                 "php": ">=5.3.2",
                 "symfony/symfony": "~2.3"
             },
@@ -510,12 +509,11 @@
                 {
                     "name": "Daniel Platt",
                     "email": "github@ofdan.co.uk",
-                    "homepage": "http://www.hackzilla.org",
-                    "role": "Developer"
+                    "homepage": "http://www.hackzilla.org"
                 }
             ],
             "description": "Password Generator Bundle",
-            "time": "2014-05-08 16:16:18"
+            "time": "2014-10-12 09:42:03"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -642,21 +640,24 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.10.0",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "25b16e801979098cb2f120e697bfce454b18bf23"
+                "reference": "ec3961874c43840e96da3a8a1ed20d8c73d7e5aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/25b16e801979098cb2f120e697bfce454b18bf23",
-                "reference": "25b16e801979098cb2f120e697bfce454b18bf23",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/ec3961874c43840e96da3a8a1ed20d8c73d7e5aa",
+                "reference": "ec3961874c43840e96da3a8a1ed20d8c73d7e5aa",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
                 "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
             },
             "require-dev": {
                 "aws/aws-sdk-php": "~2.4, >2.4.8",
@@ -664,7 +665,8 @@
                 "graylog2/gelf-php": "~1.0",
                 "phpunit/phpunit": "~3.7.0",
                 "raven/raven": "~0.5",
-                "ruflin/elastica": "0.90.*"
+                "ruflin/elastica": "0.90.*",
+                "videlalvaro/php-amqplib": "~2.4"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
@@ -674,12 +676,13 @@
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
                 "raven/raven": "Allow sending log messages to a Sentry server",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
-                "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "videlalvaro/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.10.x-dev"
+                    "dev-master": "1.11.x-dev"
                 }
             },
             "autoload": {
@@ -695,8 +698,7 @@
                 {
                     "name": "Jordi Boggiano",
                     "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be",
-                    "role": "Developer"
+                    "homepage": "http://seld.be"
                 }
             ],
             "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
@@ -706,7 +708,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-06-04 16:30:04"
+            "time": "2014-09-30 13:30:58"
         },
         {
             "name": "psr/log",
@@ -1065,16 +1067,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.3.19",
+            "version": "v2.3.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "1fc05758044fa1cf54460d7d4aff5f55b0f1b0db"
+                "reference": "5ef0ea8414fd61df090f6aa60a3d78bfb4d8bd1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/1fc05758044fa1cf54460d7d4aff5f55b0f1b0db",
-                "reference": "1fc05758044fa1cf54460d7d4aff5f55b0f1b0db",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/5ef0ea8414fd61df090f6aa60a3d78bfb4d8bd1c",
+                "reference": "5ef0ea8414fd61df090f6aa60a3d78bfb4d8bd1c",
                 "shasum": ""
             },
             "require": {
@@ -1169,7 +1171,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-09-03 09:45:27"
+            "time": "2014-09-28 16:24:47"
         },
         {
             "name": "twbs/bootstrap",
@@ -1273,16 +1275,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.16.0",
+            "version": "v1.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "8ce37115802e257a984a82d38254884085060024"
+                "reference": "7c4c01dcf578523cfcddf383641a4f12790270ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/8ce37115802e257a984a82d38254884085060024",
-                "reference": "8ce37115802e257a984a82d38254884085060024",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/7c4c01dcf578523cfcddf383641a4f12790270ec",
+                "reference": "7c4c01dcf578523cfcddf383641a4f12790270ec",
                 "shasum": ""
             },
             "require": {
@@ -1326,7 +1328,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2014-07-05 12:19:05"
+            "time": "2014-10-10 14:09:53"
         }
     ],
     "packages-dev": [],

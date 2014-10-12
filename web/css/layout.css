@@ -15,6 +15,11 @@ body > .container {
     height: 100%;
     margin: 0 auto -3.5em; /* the bottom margin is the negative value of the footer's height */
 }
+
+div.alert {
+    margin-top: 1em;
+}
+
 .footer, .push {
     height: 3.5em; /* .push must be the same height as .footer */
 }
