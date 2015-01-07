@@ -19,7 +19,7 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
         "hackzilla/bootstrap-bundle": "~0.3",
-        "hackzilla/password-generator-bundle": "~0.1"
+        "hackzilla/password-generator-bundle": "~1.0"
     },
     "scripts": {
         "post-install-cmd": [
