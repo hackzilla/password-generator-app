@@ -51,6 +51,10 @@ assetic:
           node_paths: [/usr/local/lib/node_modules]
           apply_to: "\.less$"
     assets:
+      jquery_js:
+          inputs:
+              - '%kernel.root_dir%/../vendor/components/jquery/jquery.js'
+          filters: [?yui_js]
       bootstrap_js:
           inputs:
               - '%kernel.root_dir%/../vendor/twbs/bootstrap/js/affix.js'

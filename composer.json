@@ -19,6 +19,7 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
         "hackzilla/bootstrap-bundle": "~0.3",
+        "components/jquery": "~2.1.3",
         "hackzilla/password-generator-bundle": "~1.0"
     },
     "scripts": {
