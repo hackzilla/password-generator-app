@@ -3,6 +3,10 @@
     <file source-language="en" datatype="plaintext" original="file.ext">
         <body>
 
+            <trans-unit id="1">
+                <source>HEADING_FORK_ME</source>
+                <target>Fork me on GitHub</target>
+            </trans-unit>
             <trans-unit id="2">
                 <source>BUILT_BY</source>
                 <target>Simple Password Generating App by %link%</target>
