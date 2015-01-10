@@ -28,7 +28,7 @@
             <div class="push"></div>
         </div>
         <div class="footer">
-            <p>Simple Password Generating App by <a href="https://twitter.com/danielplatt">@danielplatt</a>.</p>
+            <p>{{ 'BUILT_BY'|trans({'%link%': '<a href="https://twitter.com/danielplatt">@danielplatt</a>'})|raw }}.</p>
         </div>
 
         {% javascripts filter='?yui_js' combine=true output='bootstrap.js'
