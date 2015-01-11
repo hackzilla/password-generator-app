@@ -2,5 +2,6 @@ app/cache/*
 app/logs/*
 app/config/parameters.yml
 app/bootstrap.php.cache
+web/assetic/*
 web/bundles
 vendor/*
