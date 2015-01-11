@@ -11,6 +11,10 @@
                 <source>BUILT_BY</source>
                 <target>Simple Password Generating App by %link%</target>
             </trans-unit>
+            <trans-unit id="3">
+                <source>HEADING_LANGUAGE</source>
+                <target>Language:</target>
+            </trans-unit>
 
         </body>
     </file>
