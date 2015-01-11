@@ -486,16 +486,16 @@
         },
         {
             "name": "hackzilla/password-generator",
-            "version": "1.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator.git",
-                "reference": "37d8df8a12443cf8b6b5d3b64bf3cf9ddadf2f78"
+                "reference": "365b8782f90b021f8f90de71783ee57dfffb0b73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator/zipball/37d8df8a12443cf8b6b5d3b64bf3cf9ddadf2f78",
-                "reference": "37d8df8a12443cf8b6b5d3b64bf3cf9ddadf2f78",
+                "url": "https://api.github.com/repos/hackzilla/password-generator/zipball/365b8782f90b021f8f90de71783ee57dfffb0b73",
+                "reference": "365b8782f90b021f8f90de71783ee57dfffb0b73",
                 "shasum": ""
             },
             "require": {
@@ -522,20 +522,20 @@
                 }
             ],
             "description": "Password Generator Library",
-            "time": "2015-01-04 21:56:58"
+            "time": "2015-01-10 22:15:10"
         },
         {
             "name": "hackzilla/password-generator-bundle",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator-bundle.git",
-                "reference": "07ad627a2d1db0d9b8ad8f30368297d30b77cc45"
+                "reference": "0fa8131bf669492cdc1c95be1ff1b117c3861333"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/07ad627a2d1db0d9b8ad8f30368297d30b77cc45",
-                "reference": "07ad627a2d1db0d9b8ad8f30368297d30b77cc45",
+                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/0fa8131bf669492cdc1c95be1ff1b117c3861333",
+                "reference": "0fa8131bf669492cdc1c95be1ff1b117c3861333",
                 "shasum": ""
             },
             "require": {
@@ -561,7 +561,7 @@
                 }
             ],
             "description": "Password Generator Bundle",
-            "time": "2015-01-07 22:29:21"
+            "time": "2015-01-11 09:28:20"
         },
         {
             "name": "incenteev/composer-parameter-handler",
