@@ -20,6 +20,10 @@ div.alert {
     margin-top: 1em;
 }
 
+h3 {
+    font-size: 20px;
+}
+
 .footer, .push {
     height: 3.5em; /* .push must be the same height as .footer */
 }
