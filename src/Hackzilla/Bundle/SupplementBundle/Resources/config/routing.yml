@@ -1,0 +1,3 @@
+about:
+    pattern: /about
+    defaults: { _controller: HackzillaSupplementBundle:About:index }
