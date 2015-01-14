@@ -34,21 +34,25 @@
 }
 
 @media screen and (min-width: 800px) {
+    nav {
+        z-index: 9999;
+    }
+
     #forkongithub {
-        position: absolute;
+        position: fixed;
         display: block;
-        top: -30px;
+        top: 50px;
         right: 0;
         width: 200px;
         overflow: hidden;
         height: 200px;
-        z-index: 9999;
+        z-index: 9998;
     }
 
     #forkongithub a {
         width: 200px;
         position: absolute;
-        top: 60px;
+        top: 40px;
         right: -60px;
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
