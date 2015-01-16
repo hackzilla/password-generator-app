@@ -15,6 +15,19 @@
                 <source>HEADING_LANGUAGE</source>
                 <target>Language:</target>
             </trans-unit>
+            <trans-unit id="4">
+                <source>TOGGLE_NAVIGATION</source>
+                <target>Toggle navigation</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>ABOUT</source>
+                <target>About</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>CONTACT</source>
+                <target>Contact</target>
+            </trans-unit>
+
 
         </body>
     </file>

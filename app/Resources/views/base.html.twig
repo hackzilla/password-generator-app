@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>{% block title %}Password Generator{% endblock %}</title>
+        <title>{% block title %}{{ 'HEADING_CREATE_PASSWORDS'|trans }}{% endblock %}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -21,10 +21,10 @@
     <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="navbar-brand navbar-right">{{ 'HEADING_LANGUAGE'|trans }} <a href="{{ path(app.request.attributes.get('_route'), {'_locale': 'en'}) }}">EN</a></div>
+            <div class="navbar-brand navbar-right">{{ 'HEADING_LANGUAGE'|trans }} <a href="{{ path(app.request.attributes.get('_route'), {'_locale': 'en'}) }}">en</a></div>
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only">{{ 'TOOGLE_NAVIGATION'|trans }}</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
