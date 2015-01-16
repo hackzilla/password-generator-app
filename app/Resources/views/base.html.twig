@@ -32,17 +32,14 @@
                 <a class="navbar-brand" href="{{ path('default_locale') }}">{{ 'HEADING_CREATE_PASSWORDS'|trans }}</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
+                {% set route = app.request.attributes.get('_route') %}
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="{{ path('about') }}">About</a></li>
-                    <li><a href="http://www.hackzilla.org/">Contact</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Generators <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Computer</a></li>
-                            <li><a href="#">Human</a></li>
-                            <li><a href="#">Hybrid</a></li>
-                        </ul>
-                    </li>
+                    <li{% if route == 'about' %} class="active"{% endif %}><a href="{{ path('about') }}">{{ 'ABOUT'|trans }}</a></li>
+                    <li><a href="http://www.hackzilla.org/#contact">{{ 'CONTACT'|trans }}</a></li>
+                    <li><p class="navbar-text">{{ 'HEADING_SUB_DESCRIPTION'|trans }}</p></li>
+                    <li{% if route == 'hackzilla_password_generator_human_form' %} class="active"{% endif %}><a href="{{ path('hackzilla_password_generator_human_form') }}">{{ 'MODE_HUMANS'|trans }}</a></li>
+                    <li{% if route == 'hackzilla_password_generator_computer_form' %} class="active"{% endif %}><a href="{{ path('hackzilla_password_generator_computer_form') }}">{{ 'MODE_COMPUTERS'|trans }}</a></li>
+                    <li{% if route == 'hackzilla_password_generator_hybrid_form' %} class="active"{% endif %}><a href="{{ path('hackzilla_password_generator_hybrid_form') }}">{{ 'MODE_HYBRID'|trans }}</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
