@@ -72,6 +72,6 @@ assetic:
           filters: [?yui_js]
       bootstrap_less:
           inputs:
-              - '@HackzillaBootstrapBundle/Resources/less/compile.less'
+              - '%kernel.root_dir%/../src/Hackzilla/Bundle/SupplementBundle/Resources/less/compile.less'
               - 'css/layout.css'
           filters: [less,cssembed]
