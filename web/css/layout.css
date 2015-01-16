@@ -1,19 +1,35 @@
-html,
-body {
-    height: 100%;
-    background-color: #333;
+/* Sticky Footer*/
+html {
+    position: relative;
+    min-height: 100%;
 }
 body {
-    color: #fff;
-    text-shadow: 0 1px 3px rgba(0,0,0,.5);
-    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
 }
 
-body > .container {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -3.5em; /* the bottom margin is the negative value of the footer's height */
+
+
+/* Site Specific */
+html,
+body{
+    background-color: #333;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.footer {
+    background-color: #444;
+    text-align: center;
+    margin-top: 1em;
+    padding: 1em;
 }
 
 div.alert {
@@ -22,15 +38,6 @@ div.alert {
 
 h3 {
     font-size: 20px;
-}
-
-.footer, .push {
-    height: 3.5em; /* .push must be the same height as .footer */
-}
-.footer {
-    background-color: #444;
-    text-align: center;
-    padding-top: 1em;
 }
 
 .password-mode {

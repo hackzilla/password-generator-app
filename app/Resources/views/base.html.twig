@@ -55,9 +55,11 @@
             </div>
             <div class="push"></div>
         </div>
-        <div class="footer">
-            <p>{{ 'BUILT_BY'|trans({'%link%': '<a href="https://twitter.com/danielplatt">@danielplatt</a>'})|raw }}.</p>
-        </div>
+        <footer class="footer">
+            <div class="container">
+                <p>{{ 'BUILT_BY'|trans({'%link%': '<a href="https://twitter.com/danielplatt">@danielplatt</a>'})|raw }}.</p>
+            </div>
+        </footer>
 
         {% javascripts filter='?yui_js' combine=true output='bootstrap.js'
         '@jquery_js' '@bootstrap_js' %}
