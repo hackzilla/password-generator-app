@@ -6202,6 +6202,9 @@ h3 {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+.mode-description p {
+  color: #eee !important;
+}
 #forkongithub a {
     background: #ff7600;
     color: #fff;
