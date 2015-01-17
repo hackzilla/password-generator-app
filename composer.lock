@@ -527,16 +527,16 @@
         },
         {
             "name": "hackzilla/password-generator-bundle",
-            "version": "1.1",
+            "version": "1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator-bundle.git",
-                "reference": "0fa8131bf669492cdc1c95be1ff1b117c3861333"
+                "reference": "3aec5f766d78c7972d1a4e7a2e1e627e1ceab54c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/0fa8131bf669492cdc1c95be1ff1b117c3861333",
-                "reference": "0fa8131bf669492cdc1c95be1ff1b117c3861333",
+                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/3aec5f766d78c7972d1a4e7a2e1e627e1ceab54c",
+                "reference": "3aec5f766d78c7972d1a4e7a2e1e627e1ceab54c",
                 "shasum": ""
             },
             "require": {
@@ -562,7 +562,7 @@
                 }
             ],
             "description": "Password Generator Bundle",
-            "time": "2015-01-11 09:28:20"
+            "time": "2015-01-17 10:03:51"
         },
         {
             "name": "incenteev/composer-parameter-handler",
