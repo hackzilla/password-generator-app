@@ -6292,7 +6292,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 75px;
 }
 .footer {
   position: absolute;
@@ -6317,8 +6317,18 @@ body {
 div.alert {
   margin-top: 1em;
 }
-h3 {
+h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+div.passwords {
+  margin-top: 2em;
+}
+div.passwords h2 {
   font-size: 20px;
+}
+form {
+  margin-top: 2em;
 }
 .password-mode {
   margin-top: 2em;
