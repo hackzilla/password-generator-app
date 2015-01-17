@@ -1,0 +1,7 @@
+{% extends 'HackzillaPasswordGeneratorBundle::layout.html.twig' %}
+
+{% block layout %}
+    {% if 'HUMAN_PASSWORD_GENERATOR_HEADING'|trans %}<h2>{{ 'HUMAN_PASSWORD_GENERATOR_HEADING'|trans|nl2br }}</h2>{% endif %}
+    {% if 'HUMAN_DESCRIPTION'|trans %}<p>{{ 'HUMAN_DESCRIPTION'|trans|nl2br }} [<a href="http://xkcd.com/936/">{{ 'LABEL_CITATION'|trans }}</a>]</p>{% endif %}
+    {% block form %}{% endblock form %}
+{% endblock layout %}

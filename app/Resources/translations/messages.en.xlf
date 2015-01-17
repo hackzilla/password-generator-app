@@ -29,6 +29,37 @@
             </trans-unit>
 
 
+
+            <!-- Descriptions -->
+            <trans-unit id="100">
+                <source>COMPUTER_PASSWORD_GENERATOR_HEADING</source>
+                <target>Computer Password Generator</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>HYBRID_PASSWORD_GENERATOR_HEADING</source>
+                <target>Hybrid Password Generator</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>HUMAN_PASSWORD_GENERATOR_HEADING</source>
+                <target>Human Password Generator</target>
+            </trans-unit>
+
+            <!-- Descriptions -->
+            <trans-unit id="200">
+                <source>COMPUTER_DESCRIPTION</source>
+                <target>Make complex password.
+                The longer they are the harder they are to guess.</target>
+            </trans-unit>
+            <trans-unit id="201">
+                <source>HYBRID_DESCRIPTION</source>
+                <target>Similar to computer passwords, but they are spilt with dashes to help you remember them.</target>
+            </trans-unit>
+            <trans-unit id="202">
+                <source>HUMAN_DESCRIPTION</source>
+                <target>Make passwords easier to remember and in theory harder to guess by using dictionary words.
+                The more words you use the harder it'll be to guess.</target>
+            </trans-unit>
+
         </body>
     </file>
 </xliff>

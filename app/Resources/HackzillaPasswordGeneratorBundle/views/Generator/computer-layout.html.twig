@@ -1,0 +1,7 @@
+{% extends 'HackzillaPasswordGeneratorBundle::layout.html.twig' %}
+
+{% block layout %}
+    {% if 'COMPUTER_PASSWORD_GENERATOR_HEADING'|trans %}<h2>{{ 'COMPUTER_PASSWORD_GENERATOR_HEADING'|trans|nl2br }}</h2>{% endif %}
+    {% if 'COMPUTER_DESCRIPTION'|trans %}<p>{{ 'COMPUTER_DESCRIPTION'|trans|nl2br }}</p>{% endif %}
+    {% block form %}{% endblock form %}
+{% endblock layout %}
