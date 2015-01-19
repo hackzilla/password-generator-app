@@ -1,5 +1,6 @@
 {% extends '::base.html.twig' %}
 
 {% block body %}
-    <h2>About</h2>
+    <h2>{{ 'ABOUT'|trans }}</h2>
+    <p>{{ 'ABOUT_TEXT'|trans|nl2br }}</p>
 {% endblock body %}

@@ -60,6 +60,15 @@
                 The more words you use the harder it'll be to guess.</target>
             </trans-unit>
 
+            <!-- Pages -->
+            <trans-unit id="1000">
+                <source>ABOUT_TEXT</source>
+                <target>This password generator was created after my favorite website for generating passwords was converted from GET to POST requests. This meant that the results page could no longer bookmarked for quick password generation.
+
+                This project also served to help reinforce the programming style of separations of concerns, which is why there is a library, bundle and app.
+
+                Hopefully you'll get as much use out of this project as I have.</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
