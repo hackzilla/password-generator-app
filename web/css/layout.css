@@ -61,3 +61,11 @@ form {
 .mode-description p {
     color: #eee !important;
 }
+
+.locale a {
+    color: #9d9d9d;
+}
+
+.locale a.selected-locale {
+    color: #fff;
+}
