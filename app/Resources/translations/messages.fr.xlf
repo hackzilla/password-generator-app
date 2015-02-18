@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="fr" datatype="plaintext" original="file.ext">
+        <body>
+
+            <trans-unit id="1">
+                <source>HEADING_FORK_ME</source>
+                <target>"Fork"-moi sur GitHub</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>BUILT_BY</source>
+                <target>Un app facile pour gènèrer des mots de passe par %link%</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>HEADING_LANGUAGE</source>
+                <target>Langue:</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>TOGGLE_NAVIGATION</source>
+                <target>Activer la navigation</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>ABOUT</source>
+                <target>Information</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>CONTACT</source>
+                <target>Contacte</target>
+            </trans-unit>
+
+            <!-- Descriptions -->
+            <trans-unit id="100">
+                <source>COMPUTER_PASSWORD_GENERATOR_HEADING</source>
+                <target>Geènèrateur de mot de passe ordinateur</target>
+            </trans-unit>
+            <trans-unit id="101">
+                <source>HYBRID_PASSWORD_GENERATOR_HEADING</source>
+                <target>Geènèrateur de mot de passe hybride</target>
+            </trans-unit>
+            <trans-unit id="102">
+                <source>HUMAN_PASSWORD_GENERATOR_HEADING</source>
+                <target>Geènèrateur de mot de passe humain</target>
+            </trans-unit>
+
+            <!-- Descriptions -->
+            <trans-unit id="200">
+                <source>COMPUTER_DESCRIPTION</source>
+                <target>Ce fonction fait des mots de passe complexes.
+                Les plus longs les mots de passe, les plus difficiles ‡ deviner ou craquer.</target>
+            </trans-unit>
+            <trans-unit id="201">
+                <source>HYBRID_DESCRIPTION</source>
+                <target>Ce fonction fait des mots de passe presque pareils aux mots de passe ordinateurs, mais celuis-ci sont sèparès par des tirets pour vous aider ‡ les mèmoriser.</target>
+            </trans-unit>
+            <trans-unit id="202">
+                <source>HUMAN_DESCRIPTION</source>
+                <target>Ce fonction fait des mots de passe qui sont plus facile ‡ mèmoriser et plus difficile ‡ deviner car il utilise les mots qu'on peut trouver dans une dictionnaire.
+                Il est de plus en plus difficule ‡ deviner, le plus mots que vous utilisez.</target>
+            </trans-unit>
+
+            <!-- Pages -->
+            <trans-unit id="1000">
+                <source>ABOUT_TEXT</source>
+                <target>Ce gènèrateur de mot de passe a ètè crèè aprës mon site favori pour gènèrer des mots de passe a ètè convertie de GET ‡ POST demandes. Cela signifie que la page de rèsultats ne pouvait plus ítre un signet pour la gènèration de mot de passe rapide.
+
+                Ce projet a ègalement servi pour aider ‡ renforcer le style de programmation des sèparations des intÈrÍts , c'est pourquoi il y a un "Library" , un "Bundle" et un "App" .
+
+                Je espëre que vous allez obtenir autant l'utilisation de ce projet que moi.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

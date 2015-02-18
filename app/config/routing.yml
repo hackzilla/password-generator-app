@@ -6,7 +6,7 @@ hackzilla_password_generator:
     resource: "@HackzillaPasswordGeneratorBundle/Resources/config/routing.yml"
     prefix:   /{_locale}
     requirements:
-        _locale: en
+        _locale: en|fr
 
 default_locale:
     pattern: /
