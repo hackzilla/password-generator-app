@@ -9,7 +9,7 @@
             </trans-unit>
             <trans-unit id="2">
                 <source>BUILT_BY</source>
-                <target>Un app facile pour gènèrer des mots de passe par %link%</target>
+                <target>Un app facile pour générer des mots de passe par %link%</target>
             </trans-unit>
             <trans-unit id="3">
                 <source>HEADING_LANGUAGE</source>
@@ -31,41 +31,41 @@
             <!-- Descriptions -->
             <trans-unit id="100">
                 <source>COMPUTER_PASSWORD_GENERATOR_HEADING</source>
-                <target>Geènèrateur de mot de passe ordinateur</target>
+                <target>Générateur de mot de passe ordinateur</target>
             </trans-unit>
             <trans-unit id="101">
                 <source>HYBRID_PASSWORD_GENERATOR_HEADING</source>
-                <target>Geènèrateur de mot de passe hybride</target>
+                <target>Générateur de mot de passe hybride</target>
             </trans-unit>
             <trans-unit id="102">
                 <source>HUMAN_PASSWORD_GENERATOR_HEADING</source>
-                <target>Geènèrateur de mot de passe humain</target>
+                <target>Générateur de mot de passe humain</target>
             </trans-unit>
 
             <!-- Descriptions -->
             <trans-unit id="200">
                 <source>COMPUTER_DESCRIPTION</source>
                 <target>Ce fonction fait des mots de passe complexes.
-                Les plus longs les mots de passe, les plus difficiles ‡ deviner ou craquer.</target>
+                Les plus longs les mots de passe, les plus difficiles à deviner ou craquer.</target>
             </trans-unit>
             <trans-unit id="201">
                 <source>HYBRID_DESCRIPTION</source>
-                <target>Ce fonction fait des mots de passe presque pareils aux mots de passe ordinateurs, mais celuis-ci sont sèparès par des tirets pour vous aider ‡ les mèmoriser.</target>
+                <target>Ce fonction fait des mots de passe presque pareils aux mots de passe ordinateurs, mais celuis-ci sont sépares par des tirets pour vous aider à les mémoriser.</target>
             </trans-unit>
             <trans-unit id="202">
                 <source>HUMAN_DESCRIPTION</source>
-                <target>Ce fonction fait des mots de passe qui sont plus facile ‡ mèmoriser et plus difficile ‡ deviner car il utilise les mots qu'on peut trouver dans une dictionnaire.
-                Il est de plus en plus difficule ‡ deviner, le plus mots que vous utilisez.</target>
+                <target>Ce fonction fait des mots de passe qui sont plus facile à mémoriser et plus difficile à deviner car il utilise les mots qu'on peut trouver dans une dictionnaire.
+                Il est de plus en plus difficule à deviner, le plus mots que vous utilisez.</target>
             </trans-unit>
 
             <!-- Pages -->
             <trans-unit id="1000">
                 <source>ABOUT_TEXT</source>
-                <target>Ce gènèrateur de mot de passe a ètè crèè aprës mon site favori pour gènèrer des mots de passe a ètè convertie de GET ‡ POST demandes. Cela signifie que la page de rèsultats ne pouvait plus ítre un signet pour la gènèration de mot de passe rapide.
+                <target>Ce générateur de mot de passe a été créé après mon site favori pour générer des mots de passe a été convertie de GET à POST demandes. Cela signifie que la page de résultats ne pouvait plus ítre un signet pour la génération de mot de passe rapide.
 
-                Ce projet a ègalement servi pour aider ‡ renforcer le style de programmation des sèparations des intÈrÍts , c'est pourquoi il y a un "Library" , un "Bundle" et un "App" .
+                Ce projet a également servi pour aider à renforcer le style de programmation des séparations des intérÍts, c'est pourquoi il y a un "Library" , un "Bundle" et un "App" .
 
-                Je espëre que vous allez obtenir autant l'utilisation de ce projet que moi.</target>
+                Je espère que vous allez obtenir autant l'utilisation de ce projet que moi.</target>
             </trans-unit>
         </body>
     </file>
