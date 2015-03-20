@@ -47,7 +47,7 @@
             <!-- Descriptions -->
             <trans-unit id="200">
                 <source>COMPUTER_DESCRIPTION</source>
-                <target>Make complex password.
+                <target>Makes complex passwords.
                 The longer they are the harder they are to guess.</target>
             </trans-unit>
             <trans-unit id="201">
@@ -63,7 +63,7 @@
             <!-- Pages -->
             <trans-unit id="1000">
                 <source>ABOUT_TEXT</source>
-                <target>This password generator was created after my favorite website for generating passwords was converted from GET to POST requests. This meant that the results page could no longer bookmarked for quick password generation.
+                <target>This password generator was created after my favorite website for generating passwords was converted from GET to POST requests. This meant that the results page could no longer be bookmarked for quick password generation.
 
                 This project also served to help reinforce the programming style of separations of concerns, which is why there is a library, bundle and app.
 
