@@ -1,6 +1,8 @@
 hackzilla_supplement:
     resource: "@HackzillaSupplementBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /{_locale}
+    requirements:
+        _locale: en|fr
 
 hackzilla_password_generator:
     resource: "@HackzillaPasswordGeneratorBundle/Resources/config/routing.yml"
@@ -13,4 +15,11 @@ default_locale:
     defaults:
         _controller: FrameworkBundle:Redirect:redirect
         route: hackzilla_password_generator_form
+        permanent: false
+
+default_locale_about:
+    pattern: /about
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: about
         permanent: false
