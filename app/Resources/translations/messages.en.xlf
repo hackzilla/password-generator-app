@@ -52,7 +52,7 @@
             </trans-unit>
             <trans-unit id="201">
                 <source>HYBRID_DESCRIPTION</source>
-                <target>Similar to computer passwords, but they are spilt with dashes to help you remember them.</target>
+                <target>Similar to computer passwords, but they are split with dashes to help you remember them.</target>
             </trans-unit>
             <trans-unit id="202">
                 <source>HUMAN_DESCRIPTION</source>
