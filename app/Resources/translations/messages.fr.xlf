@@ -61,9 +61,9 @@
             <!-- Pages -->
             <trans-unit id="1000">
                 <source>ABOUT_TEXT</source>
-                <target>Ce générateur de mot de passe a été créé après mon site favori pour générer des mots de passe a été convertie de GET à POST demandes. Cela signifie que la page de résultats ne pouvait plus ítre un signet pour la génération de mot de passe rapide.
+                <target>Ce générateur de mot de passe a été créé après mon site favori pour générer des mots de passe a été convertie de GET à POST demandes. Cela signifie que la page de résultats ne pouvait plus être un signet pour la génération de mot de passe rapide.
 
-                Ce projet a également servi pour aider à renforcer le style de programmation des séparations des intérÍts, c'est pourquoi il y a un "Library" , un "Bundle" et un "App" .
+                Ce projet a également servi pour aider à renforcer le style de programmation des séparations des intérêts, c'est pourquoi il y a un "Library" , un "Bundle" et un "App" .
 
                 Je espère que vous allez obtenir autant l'utilisation de ce projet que moi.</target>
             </trans-unit>
