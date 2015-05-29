@@ -793,17 +793,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v2.3.16",
+            "version": "v2.3.17",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "df552307f1426f69ada59cfcae85c43b7c10a8cd"
+                "reference": "49334e66844f89898d21646b4fda4cfcfe116200"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/df552307f1426f69ada59cfcae85c43b7c10a8cd",
-                "reference": "df552307f1426f69ada59cfcae85c43b7c10a8cd",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/49334e66844f89898d21646b4fda4cfcfe116200",
+                "reference": "49334e66844f89898d21646b4fda4cfcfe116200",
                 "shasum": ""
             },
             "require": {
@@ -835,7 +835,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2015-05-02 16:01:47"
+            "time": "2015-05-29 22:34:59"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -1061,16 +1061,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.3.28",
+            "version": "v2.3.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "56bc4057e3849d38aeb5e9742bc800b0518fe1f0"
+                "reference": "6dfe5551b71d156739a0df1043ba81b326e36f4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/56bc4057e3849d38aeb5e9742bc800b0518fe1f0",
-                "reference": "56bc4057e3849d38aeb5e9742bc800b0518fe1f0",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/6dfe5551b71d156739a0df1043ba81b326e36f4a",
+                "reference": "6dfe5551b71d156739a0df1043ba81b326e36f4a",
                 "shasum": ""
             },
             "require": {
@@ -1152,20 +1152,20 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                },
-                {
                     "name": "Fabien Potencier",
                     "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "The Symfony PHP framework",
-            "homepage": "http://symfony.com",
+            "homepage": "https://symfony.com",
             "keywords": [
                 "framework"
             ],
-            "time": "2015-05-10 15:02:48"
+            "time": "2015-05-29 22:16:04"
         },
         {
             "name": "twbs/bootstrap",
