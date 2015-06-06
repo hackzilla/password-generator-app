@@ -11,14 +11,14 @@ hackzilla_password_generator:
         _locale: en|fr
 
 default_locale:
-    pattern: /
+    path: /
     defaults:
         _controller: FrameworkBundle:Redirect:redirect
         route: hackzilla_password_generator_form
         permanent: false
 
 default_locale_about:
-    pattern: /about
+    path: /about
     defaults:
         _controller: FrameworkBundle:Redirect:redirect
         route: about
