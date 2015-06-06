@@ -30,9 +30,8 @@ twig:
     strict_variables: "%kernel.debug%"
     globals:
         ga_tracking: %ga_tracking%
-    form:
-        resources:
-          - 'HackzillaBootstrapBundle:Form:fields.html.twig'
+    form_themes:
+        - 'HackzillaBootstrapBundle:Form:fields.html.twig'
 
 # Assetic Configuration
 assetic:
