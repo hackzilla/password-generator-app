@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a83761b58fe40b778e7de015dd768efb",
+    "hash": "47662f5f1bf10842340e3b2a1ca3a628",
     "packages": [
         {
             "name": "components/jquery",
@@ -743,38 +743,6 @@
                 "orm"
             ],
             "time": "2014-12-16 13:45:01"
-        },
-        {
-            "name": "hackzilla/bootstrap-bundle",
-            "version": "0.9",
-            "target-dir": "Hackzilla/Bundle/BootstrapBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hackzilla/bootstrap-bundle.git",
-                "reference": "65b17d6f67f28ce2d9c8444cdabe0134cbcc0d3d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/bootstrap-bundle/zipball/65b17d6f67f28ce2d9c8444cdabe0134cbcc0d3d",
-                "reference": "65b17d6f67f28ce2d9c8444cdabe0134cbcc0d3d",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3",
-                "twbs/bootstrap": "~3.3.0"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Hackzilla\\Bundle\\BootstrapBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Bootstrap handler bundle",
-            "time": "2015-01-12 16:51:17"
         },
         {
             "name": "hackzilla/password-generator",

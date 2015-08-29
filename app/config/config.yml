@@ -31,7 +31,7 @@ twig:
     globals:
         ga_tracking: %ga_tracking%
     form_themes:
-        - 'HackzillaBootstrapBundle:Form:fields.html.twig'
+        - 'bootstrap_3_layout.html.twig'
 
 # Assetic Configuration
 assetic:
@@ -71,6 +71,6 @@ assetic:
             filters: [?yui_js]
         bootstrap_less:
             inputs:
-                - '%kernel.root_dir%/../src/Hackzilla/Bundle/SupplementBundle/Resources/less/compile.less'
+                - '%kernel.root_dir%/../vendor/twbs/bootstrap/dist/css/bootstrap.css'
                 - 'css/layout.css'
             filters: [less,cssembed]
