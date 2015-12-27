@@ -10,8 +10,6 @@
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "~3.0",
-        "doctrine/orm": "^2.4.8",
-        "doctrine/doctrine-bundle": "~1.4",
         "symfony/monolog-bundle": "~2.4",
         "sensio/distribution-bundle": "~5.0",
         "sensio/framework-extra-bundle": "^3.0.2",
