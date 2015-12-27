@@ -7,3 +7,5 @@ web/bundles
 /build/
 /vendor/
 /bin/
+node_modules
+web/assets

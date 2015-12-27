@@ -1,0 +1,22 @@
+{
+  "name": "@hackzilla/password-generator-app",
+  "version": "1.6.0",
+  "description": "Password Generating website built in Symfony2",
+  "main": "web/app.php",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackzilla/password-generator-app"
+  },
+  "author": "Daniel Platt",
+  "license": "MIT",
+  "homepage": "http://passwords.ofdan.com/",
+  "devDependencies": {
+    "bower": "^1.5.3"
+  }
+}
