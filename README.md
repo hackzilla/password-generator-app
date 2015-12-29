@@ -43,7 +43,7 @@ composer install
 app/console cache:clear --env=prod --no-debug
 ```
 
-d) Update Front-end dependencies (optional)
+d) Update Front-end dependencies
 
 * https://blog.engineyard.com/2014/frontend-dependencies-management-part-1
 * npm install
