@@ -48,7 +48,6 @@ d) Update Front-end dependencies (optional)
 * https://blog.engineyard.com/2014/frontend-dependencies-management-part-1
 * npm install
 * ./node_modules/bower/bin/bower install
-* apt-get install openjdk-7-jre-headless
 
 
 Components
