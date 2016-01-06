@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1c97e64b7c9e0a377ea1521aac8aa656",
+    "hash": "c2f59c4ff0435faa3b3144fe805c52c6",
     "content-hash": "270d34abca70a952b87e4945548cfb10",
     "packages": [
         {
@@ -451,17 +451,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator-bundle.git",
-                "reference": "43fa756c2a98afd333cb103037ed34c1029fa652"
+                "reference": "1ca1cacd18242423591e8c31d1750fbabb3e366b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/43fa756c2a98afd333cb103037ed34c1029fa652",
-                "reference": "43fa756c2a98afd333cb103037ed34c1029fa652",
+                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/1ca1cacd18242423591e8c31d1750fbabb3e366b",
+                "reference": "1ca1cacd18242423591e8c31d1750fbabb3e366b",
                 "shasum": ""
             },
             "require": {
                 "hackzilla/password-generator": "~1.0",
-                "php": ">=5.3.2",
+                "php": "^5.5 || ^7.0",
                 "symfony/form": "~2.7|~3.0",
                 "symfony/framework-bundle": "~2.7|~3.0"
             },
@@ -492,7 +492,7 @@
                 }
             ],
             "description": "Password Generator Bundle",
-            "time": "2016-01-04 22:09:03"
+            "time": "2016-01-06 18:40:32"
         },
         {
             "name": "incenteev/composer-parameter-handler",
