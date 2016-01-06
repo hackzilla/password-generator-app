@@ -1,3 +1,4 @@
 about:
     path: /about
     defaults: { _controller: HackzillaSupplementBundle:About:index }
+    methods:  [GET]
