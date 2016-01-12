@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b339ea96dc0ca232c492580d0876fda2",
-    "content-hash": "bab29ff7f2caf1583a3fe36fb1af5732",
+    "hash": "395f8973e0532c8a2d373412b7966ae8",
+    "content-hash": "7f06c238c38100af2e3daec66cd9d887",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -447,7 +447,7 @@
         },
         {
             "name": "hackzilla/password-generator-bundle",
-            "version": "dev-master",
+            "version": "2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator-bundle.git",
@@ -1336,18 +1336,9 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [
-        {
-            "alias": "2.0",
-            "alias_normalized": "2.0.0.0",
-            "version": "2.9999999.9999999.9999999-dev",
-            "package": "hackzilla/password-generator-bundle"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "hackzilla/password-generator-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
