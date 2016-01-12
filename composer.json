@@ -8,7 +8,7 @@
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },
     "require": {
-        "php": ">=5.3.3",
+        "php": "^5.5 || ^7.0",
         "symfony/symfony": "~3.0",
         "symfony/monolog-bundle": "~2.4",
         "sensio/distribution-bundle": "~5.0",
