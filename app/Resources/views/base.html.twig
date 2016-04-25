@@ -15,9 +15,11 @@
         <link href="{{ asset('css/layout.css') }}" type="text/css" rel="stylesheet" >
     </head>
     <body>
-    <span id="forkongithub"><a href="https://github.com/hackzilla/password-generator-app">{{ 'HEADING_FORK_ME'|trans }}</a></span>
 
-    {% include '::navbar.html.twig' %}
+    {% block navbar %}
+        <span id="forkongithub"><a href="https://github.com/hackzilla/password-generator-app">{{ 'HEADING_FORK_ME'|trans }}</a></span>
+        {% include '::navbar.html.twig' %}
+    {% endblock %}
 
         <div class="container">
             <div class="row">
