@@ -41,6 +41,10 @@
                 <source>HUMAN_PASSWORD_GENERATOR_HEADING</source>
                 <target>Générateur de mot de passe humain</target>
             </trans-unit>
+            <trans-unit id="103">
+                <source>REQUIREMENT_PASSWORD_GENERATOR_HEADING</source>
+                <target>Générateur de mot de passe exigence</target>
+            </trans-unit>
 
             <!-- Descriptions -->
             <trans-unit id="200">
@@ -56,6 +60,11 @@
                 <source>HUMAN_DESCRIPTION</source>
                 <target>Ce fonction fait des mots de passe qui sont plus facile à mémoriser et plus difficile à deviner car il utilise les mots qu'on peut trouver dans une dictionnaire.
                 Il est de plus en plus difficule à deviner, le plus mots que vous utilisez.</target>
+            </trans-unit>
+            <trans-unit id="203">
+                <source>REQUIREMENT_DESCRIPTION</source>
+                <target>Ce fonction fait des mots de passe complexes avec des valeurs minimales et maximales.
+                Les plus longs les mots de passe, les plus difficiles à deviner ou craquer.</target>
             </trans-unit>
 
             <!-- Pages -->

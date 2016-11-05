@@ -43,6 +43,10 @@
                 <source>HUMAN_PASSWORD_GENERATOR_HEADING</source>
                 <target>Human Password Generator</target>
             </trans-unit>
+            <trans-unit id="103">
+                <source>REQUIREMENT_PASSWORD_GENERATOR_HEADING</source>
+                <target>Requirement Password Generator</target>
+            </trans-unit>
 
             <!-- Descriptions -->
             <trans-unit id="200">
@@ -58,6 +62,11 @@
                 <source>HUMAN_DESCRIPTION</source>
                 <target>Make passwords easier to remember and in theory harder to guess by using dictionary words.
                 The more words you use the harder it'll be to guess.</target>
+            </trans-unit>
+            <trans-unit id="203">
+                <source>REQUIREMENT_DESCRIPTION</source>
+                <target>Makes complex passwords with minimum and maximum values.
+                The longer they are the harder they are to guess.</target>
             </trans-unit>
 
             <!-- Pages -->
