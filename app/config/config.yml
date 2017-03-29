@@ -30,6 +30,6 @@ twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
     globals:
-        ga_tracking: %ga_tracking%
+        ga_tracking: "%ga_tracking%"
     form_themes:
         - 'bootstrap_3_layout.html.twig'
