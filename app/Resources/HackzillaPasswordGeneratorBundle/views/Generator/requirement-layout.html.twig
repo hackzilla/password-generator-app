@@ -1,0 +1,7 @@
+{% extends 'HackzillaPasswordGeneratorBundle::layout.html.twig' %}
+
+{% block layout %}
+    {% if 'REQUIREMENT_PASSWORD_GENERATOR_HEADING'|trans %}<h2>{{ 'REQUIREMENT_PASSWORD_GENERATOR_HEADING'|trans|nl2br }}</h2>{% endif %}
+    {% if 'REQUIREMENT_DESCRIPTION'|trans %}<p>{{ 'REQUIREMENT_DESCRIPTION'|trans|nl2br }}</p>{% endif %}
+    {% block form %}{% endblock form %}
+{% endblock layout %}
