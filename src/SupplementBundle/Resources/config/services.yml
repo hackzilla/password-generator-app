@@ -1,7 +1,0 @@
-parameters:
-#    hackzilla_supplement.example.class: Hackzilla\Bundle\SupplementBundle\Example
-
-services:
-#    hackzilla_supplement.example:
-#        class: %hackzilla_supplement.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]

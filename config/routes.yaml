@@ -1,0 +1,26 @@
+default_locale:
+    path: /
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: hackzilla_password_generator_form
+        permanent: false
+
+default_locale_about:
+    path: /about
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: about
+        permanent: false
+
+about:
+    path: /{_locale}/about
+    defaults: { _controller: App\Controller\AboutController::index }
+    methods:  [GET]
+    requirements:
+        _locale: en|fr
+
+hackzilla_password_generator:
+    resource: "@HackzillaPasswordGeneratorBundle/Resources/config/routing.yml"
+    prefix:   /{_locale}
+    requirements:
+        _locale: en|fr

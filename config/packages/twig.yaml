@@ -1,0 +1,8 @@
+twig:
+    paths: ['%kernel.project_dir%/templates']
+    debug: '%kernel.debug%'
+    strict_variables: '%kernel.debug%'
+    globals:
+        ga_tracking: "%env(GA_TRACKING)%"
+    form_themes:
+        - 'bootstrap_3_layout.html.twig'

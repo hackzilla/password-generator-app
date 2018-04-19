@@ -40,7 +40,7 @@ Once installed run:
 
 ```bash
 composer install
-app/console cache:clear --env=prod --no-debug
+bin/console cache:clear --env=prod --no-debug
 ```
 
 d) Update Front-end dependencies

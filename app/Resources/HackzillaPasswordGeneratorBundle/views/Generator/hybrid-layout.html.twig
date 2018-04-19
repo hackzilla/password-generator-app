@@ -1,7 +1,0 @@
-{% extends 'HackzillaPasswordGeneratorBundle::layout.html.twig' %}
-
-{% block layout %}
-    {% if 'HYBRID_PASSWORD_GENERATOR_HEADING'|trans %}<h2>{{ 'HYBRID_PASSWORD_GENERATOR_HEADING'|trans|nl2br }}</h2>{% endif %}
-    {% if 'HYBRID_DESCRIPTION'|trans %}<p>{{ 'HYBRID_DESCRIPTION'|trans|nl2br }}</p>{% endif %}
-    {% block form %}{% endblock form %}
-{% endblock layout %}
