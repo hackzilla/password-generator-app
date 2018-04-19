@@ -1,4 +1,6 @@
 {
+    "name": "Password Generator",
+    "description": "An website dedicated to generatoring user passwords",
     "type": "project",
     "license": "MIT",
     "require": {
