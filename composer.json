@@ -1,5 +1,5 @@
 {
-    "name": "Password Generator",
+    "name": "hackzilla/password-generator-app",
     "description": "An website dedicated to generatoring user passwords",
     "type": "project",
     "license": "MIT",
