@@ -5,6 +5,9 @@
     "hackzilla/password-generator-bundle": {
         "version": "2.1.1"
     },
+    "monolog/monolog": {
+        "version": "1.23.0"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -91,6 +94,18 @@
     },
     "symfony/lts": {
         "version": "v3"
+    },
+    "symfony/monolog-bridge": {
+        "version": "v3.4.8"
+    },
+    "symfony/monolog-bundle": {
+        "version": "3.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.1",
+            "ref": "371d1a2b69984710646b09a1182ef1d4308c904f"
+        }
     },
     "symfony/options-resolver": {
         "version": "v3.4.6"
