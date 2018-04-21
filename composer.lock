@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf36ba6224fdf1b2ecc20f8a23a24f72",
+    "content-hash": "f3099cc8526dd96a791d0700520b9981",
     "packages": [
         {
             "name": "hackzilla/password-generator",
@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator-bundle.git",
-                "reference": "eaff9870d79a85190acbb01ebbf53d3a7bbfe2dc"
+                "reference": "c561048d5b6bf112090ca46317969c4d2e04779b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/eaff9870d79a85190acbb01ebbf53d3a7bbfe2dc",
-                "reference": "eaff9870d79a85190acbb01ebbf53d3a7bbfe2dc",
+                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/c561048d5b6bf112090ca46317969c4d2e04779b",
+                "reference": "c561048d5b6bf112090ca46317969c4d2e04779b",
                 "shasum": ""
             },
             "require": {
@@ -96,7 +96,7 @@
                 }
             ],
             "description": "Password Generator Bundle",
-            "time": "2018-04-01T21:41:28+00:00"
+            "time": "2018-04-19T20:05:39+00:00"
         },
         {
             "name": "psr/cache",
