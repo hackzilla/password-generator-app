@@ -52,12 +52,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator-bundle.git",
-                "reference": "c561048d5b6bf112090ca46317969c4d2e04779b"
+                "reference": "d296cddb97a386ebe666b03a999508493e6a057b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/c561048d5b6bf112090ca46317969c4d2e04779b",
-                "reference": "c561048d5b6bf112090ca46317969c4d2e04779b",
+                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/d296cddb97a386ebe666b03a999508493e6a057b",
+                "reference": "d296cddb97a386ebe666b03a999508493e6a057b",
                 "shasum": ""
             },
             "require": {
@@ -95,7 +95,7 @@
                 }
             ],
             "description": "Password Generator Bundle",
-            "time": "2018-04-19T20:05:39+00:00"
+            "time": "2019-11-08T10:45:24+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -272,16 +272,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
-                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
                 "shasum": ""
             },
             "require": {
@@ -290,7 +290,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -315,7 +315,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2018-11-20T15:27:04+00:00"
+            "time": "2019-11-01T11:05:21+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -423,16 +423,16 @@
         },
         {
             "name": "symfony/cache",
-            "version": "v3.4.29",
+            "version": "v3.4.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "8c6e162f0f7626771edbfa0a0e45b46623bbae1c"
+                "reference": "3d9f46a6960fd5cd7f030f86adc5b4b63bcfa4e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/8c6e162f0f7626771edbfa0a0e45b46623bbae1c",
-                "reference": "8c6e162f0f7626771edbfa0a0e45b46623bbae1c",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/3d9f46a6960fd5cd7f030f86adc5b4b63bcfa4e3",
+                "reference": "3d9f46a6960fd5cd7f030f86adc5b4b63bcfa4e3",
                 "shasum": ""
             },
             "require": {
@@ -489,7 +489,7 @@
                 "caching",
                 "psr6"
             ],
-            "time": "2019-06-17T17:26:15+00:00"
+            "time": "2019-12-01T10:45:41+00:00"
         },
         {
             "name": "symfony/class-loader",
@@ -1771,16 +1771,16 @@
         },
         {
             "name": "symfony/polyfill-apcu",
-            "version": "v1.11.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-apcu.git",
-                "reference": "a502face1da6a53289480166f24de2c3c68e5c3c"
+                "reference": "a8e961c841b9ec52927a87914f8820a1ad8f8116"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/a502face1da6a53289480166f24de2c3c68e5c3c",
-                "reference": "a502face1da6a53289480166f24de2c3c68e5c3c",
+                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/a8e961c841b9ec52927a87914f8820a1ad8f8116",
+                "reference": "a8e961c841b9ec52927a87914f8820a1ad8f8116",
                 "shasum": ""
             },
             "require": {
@@ -1789,7 +1789,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -1823,7 +1823,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
