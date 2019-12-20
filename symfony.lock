@@ -17,17 +17,14 @@
     "psr/log": {
         "version": "1.0.2"
     },
-    "psr/simple-cache": {
-        "version": "1.0.1"
-    },
     "symfony/asset": {
         "version": "v3.4.8"
     },
     "symfony/cache": {
         "version": "v3.4.6"
     },
-    "symfony/class-loader": {
-        "version": "v3.4.6"
+    "symfony/cache-contracts": {
+        "version": "v1.1.7"
     },
     "symfony/config": {
         "version": "v3.4.6"
@@ -52,6 +49,9 @@
     },
     "symfony/event-dispatcher": {
         "version": "v3.4.6"
+    },
+    "symfony/event-dispatcher-contracts": {
+        "version": "v1.1.7"
     },
     "symfony/filesystem": {
         "version": "v3.4.6"
@@ -92,8 +92,8 @@
     "symfony/intl": {
         "version": "v3.4.6"
     },
-    "symfony/lts": {
-        "version": "v3"
+    "symfony/mime": {
+        "version": "v4.3.2"
     },
     "symfony/monolog-bridge": {
         "version": "v3.4.8"
@@ -119,17 +119,23 @@
             "ref": "179470cb6492db92dffee208cfdb436f175c93b4"
         }
     },
-    "symfony/polyfill-apcu": {
-        "version": "v1.7.0"
-    },
     "symfony/polyfill-ctype": {
         "version": "v1.11.0"
     },
     "symfony/polyfill-intl-icu": {
         "version": "v1.7.0"
     },
+    "symfony/polyfill-intl-idn": {
+        "version": "v1.11.0"
+    },
     "symfony/polyfill-mbstring": {
         "version": "v1.7.0"
+    },
+    "symfony/polyfill-php72": {
+        "version": "v1.11.0"
+    },
+    "symfony/polyfill-php73": {
+        "version": "v1.11.0"
     },
     "symfony/process": {
         "version": "v3.4.6"
@@ -149,6 +155,9 @@
             "ref": "a249484db698d1a847a30291c8f732414ac47e25"
         }
     },
+    "symfony/service-contracts": {
+        "version": "v1.1.8"
+    },
     "symfony/stopwatch": {
         "version": "v3.4.6"
     },
@@ -158,8 +167,15 @@
             "repo": "github.com/symfony/recipes",
             "branch": "master",
             "version": "3.3",
-            "ref": "6bcd6c570c017ea6ae5a7a6a027c929fd3542cd8"
-        }
+            "ref": "2ad9d2545bce8ca1a863e50e92141f0b9d87ffcd"
+        },
+        "files": [
+            "config/packages/translation.yaml",
+            "translations/.gitignore"
+        ]
+    },
+    "symfony/translation-contracts": {
+        "version": "v1.1.7"
     },
     "symfony/twig-bridge": {
         "version": "v3.4.6"
@@ -175,6 +191,9 @@
     },
     "symfony/var-dumper": {
         "version": "v3.4.6"
+    },
+    "symfony/var-exporter": {
+        "version": "v4.2.10"
     },
     "symfony/web-profiler-bundle": {
         "version": "3.3",
