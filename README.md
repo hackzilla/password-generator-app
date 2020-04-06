@@ -45,9 +45,7 @@ bin/console cache:clear --env=prod --no-debug
 
 d) Update Front-end dependencies
 
-* https://blog.engineyard.com/2014/frontend-dependencies-management-part-1
-* npm install
-* ./node_modules/bower/bin/bower install
+* yarn install
 
 
 Components
