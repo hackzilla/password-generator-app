@@ -8,5 +8,3 @@
 .phpunit
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
-/.idea
-/.DS_Store
