@@ -1,11 +1,10 @@
 {
-  "name": "stats",
-  "version": "1.0.0",
+  "name": "password-generator",
   "authors": [
     "Daniel Platt <dplatt@ukwebmedia.com>"
   ],
   "description": "",
-  "main": "web/app.php",
+  "main": "public/index.php",
   "moduleType": [],
   "license": "?",
   "homepage": "https://github.com/hackzilla/password-generator-app",
