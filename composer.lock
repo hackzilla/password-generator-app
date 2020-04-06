@@ -139,23 +139,23 @@
         },
         {
             "name": "hackzilla/password-generator",
-            "version": "1.4.1",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator.git",
-                "reference": "1d4fce950424b5222d6404d7d74db7c002955522"
+                "reference": "22c7af49ef46d349d60af0fa30f61dd4dec53330"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator/zipball/1d4fce950424b5222d6404d7d74db7c002955522",
-                "reference": "1d4fce950424b5222d6404d7d74db7c002955522",
+                "url": "https://api.github.com/repos/hackzilla/password-generator/zipball/22c7af49ef46d349d60af0fa30f61dd4dec53330",
+                "reference": "22c7af49ef46d349d60af0fa30f61dd4dec53330",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": ">=7.1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8|^5.5|^6.5"
+                "phpunit/phpunit": "^7.0|^8.0|^9.0"
             },
             "type": "library",
             "autoload": {
@@ -175,7 +175,7 @@
                 }
             ],
             "description": "Password Generator Library",
-            "time": "2019-04-19T13:22:10+00:00"
+            "time": "2020-04-06T15:47:25+00:00"
         },
         {
             "name": "hackzilla/password-generator-bundle",
@@ -183,25 +183,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator-bundle.git",
-                "reference": "e4de02c9a300fec668f406b0b9e76f6d971e6f77"
+                "reference": "1efdd2d164c39e2692dce589c4e5f3c5693dea4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/e4de02c9a300fec668f406b0b9e76f6d971e6f77",
-                "reference": "e4de02c9a300fec668f406b0b9e76f6d971e6f77",
+                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/1efdd2d164c39e2692dce589c4e5f3c5693dea4b",
+                "reference": "1efdd2d164c39e2692dce589c4e5f3c5693dea4b",
                 "shasum": ""
             },
             "require": {
                 "hackzilla/password-generator": "^1.3",
                 "php": "^7.1",
-                "symfony/form": "^2.7|^3.0|^4.0|^5.0",
-                "symfony/framework-bundle": "^2.7|^3.0|^4.0|^5.0"
+                "symfony/form": "^3.0|^4.0|^5.0",
+                "symfony/framework-bundle": "^3.0|^4.0|^5.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^7.0",
-                "satooshi/php-coveralls": "^1.0",
-                "sllh/php-cs-fixer-styleci-bridge": "^2.0",
-                "symfony/phpunit-bridge": "^2.7|^3.0|^4.0|^5.0"
+                "php-coveralls/php-coveralls": "^2.0",
+                "phpunit/phpunit": "^7.0|^8.0|^9.0",
+                "symfony/phpunit-bridge": "^3.0|^4.0|^5.0"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -226,7 +225,7 @@
                 }
             ],
             "description": "Password Generator Bundle",
-            "time": "2020-04-06T09:34:20+00:00"
+            "time": "2020-04-06T15:56:31+00:00"
         },
         {
             "name": "psr/cache",
