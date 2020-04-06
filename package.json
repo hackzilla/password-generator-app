@@ -15,7 +15,7 @@
   },
   "author": "Daniel Platt",
   "license": "MIT",
-  "homepage": "http://passwords.ofdan.com/",
+  "homepage": "https://passwords.ofdan.com/",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -24,7 +24,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.5",
+    "bootstrap": "~3.4.0",
     "jquery": "~2.1.4"
   }
 }

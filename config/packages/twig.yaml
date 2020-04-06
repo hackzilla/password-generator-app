@@ -1,2 +1,6 @@
 twig:
     default_path: '%kernel.project_dir%/templates'
+    globals:
+        ga_tracking: "%env(GA_TRACKING)%"
+    form_themes:
+        - 'bootstrap_3_layout.html.twig'
