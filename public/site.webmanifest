@@ -1,0 +1,12 @@
+{
+  "short_name": "PW Gen",
+  "name": "Password Generator",
+  "icons": [{
+    "src": "apple-touch-icon.png",
+    "type": "image/png",
+    "sizes": "48x48"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#262626",
+  "theme_color": "#262626"
+}
