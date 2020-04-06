@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dff4f42f22da995fb9302bec05e03d6d",
+    "content-hash": "fd0e36873052efb6443324bff37ae3f3",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -179,16 +179,16 @@
         },
         {
             "name": "hackzilla/password-generator-bundle",
-            "version": "dev-master",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator-bundle.git",
-                "reference": "1efdd2d164c39e2692dce589c4e5f3c5693dea4b"
+                "reference": "ecbfbc7c5a18b6a0ec9634e39c08217f6c7e954d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/1efdd2d164c39e2692dce589c4e5f3c5693dea4b",
-                "reference": "1efdd2d164c39e2692dce589c4e5f3c5693dea4b",
+                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/ecbfbc7c5a18b6a0ec9634e39c08217f6c7e954d",
+                "reference": "ecbfbc7c5a18b6a0ec9634e39c08217f6c7e954d",
                 "shasum": ""
             },
             "require": {
@@ -225,7 +225,7 @@
                 }
             ],
             "description": "Password Generator Bundle",
-            "time": "2020-04-06T15:56:31+00:00"
+            "time": "2020-04-06T17:41:53+00:00"
         },
         {
             "name": "psr/cache",
@@ -4039,9 +4039,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "hackzilla/password-generator-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
