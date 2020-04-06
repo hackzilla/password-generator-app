@@ -2,9 +2,9 @@
 
 namespace App\Controller;
 
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class AboutController extends Controller
+class AboutController extends AbstractController
 {
     public function index()
     {

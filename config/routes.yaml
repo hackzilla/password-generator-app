@@ -1,14 +1,14 @@
 default_locale:
     path: /
+    controller: Symfony\Bundle\FrameworkBundle\Controller\RedirectController::redirectAction
     defaults:
-        _controller: FrameworkBundle:Redirect:redirect
         route: hackzilla_password_generator_form
         permanent: false
 
 default_locale_about:
     path: /about
+    controller: Symfony\Bundle\FrameworkBundle\Controller\RedirectController::redirectAction
     defaults:
-        _controller: FrameworkBundle:Redirect:redirect
         route: about
         permanent: false
 
