@@ -25,6 +25,6 @@
   ],
   "dependencies": {
     "bootstrap": "~3.4.0",
-    "jquery": "~2.1.4"
+    "jquery": "~3.5.0"
   }
 }
