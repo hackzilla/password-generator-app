@@ -2,6 +2,11 @@
 
 {% block layout %}
     {% if 'HUMAN_PASSWORD_GENERATOR_HEADING'|trans %}<h2>{{ 'HUMAN_PASSWORD_GENERATOR_HEADING'|trans|nl2br }}</h2>{% endif %}
-    {% if 'HUMAN_DESCRIPTION'|trans %}<p>{{ 'HUMAN_DESCRIPTION'|trans|nl2br }} [<a href="http://xkcd.com/936/">{{ 'LABEL_CITATION'|trans }}</a>]</p>{% endif %}
+    {% if 'HUMAN_DESCRIPTION'|trans %}
+    <p>
+    This is important, as it limits the ability of hackers to compromise multiple accounts.  Checkout the <a href="https://www.safetydetectives.com/blog/the-most-hacked-passwords-in-the-world/" rel="nofollow" target="_blank">20 Most Hacked Passwords</a>.
+    </p>
+    <p>{{ 'HUMAN_DESCRIPTION'|trans|nl2br }} [<a href="http://xkcd.com/936/">{{ 'LABEL_CITATION'|trans }}</a>]</p>
+    {% endif %}
     {% block form %}{% endblock form %}
 {% endblock layout %}
