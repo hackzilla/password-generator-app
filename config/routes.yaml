@@ -24,3 +24,7 @@ hackzilla_password_generator:
     prefix:   /{_locale}
     requirements:
         _locale: en|fr
+
+controllers:
+    resource: ../src/Controller/
+    type: attribute

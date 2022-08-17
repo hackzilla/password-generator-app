@@ -4,3 +4,7 @@ twig:
         ga_tracking: "%env(GA_TRACKING)%"
     form_themes:
         - 'bootstrap_3_layout.html.twig'
+
+when@test:
+    twig:
+        strict_variables: true

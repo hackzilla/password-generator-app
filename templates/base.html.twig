@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <title>{% block title %}{{ 'HEADING_CREATE_PASSWORDS'|trans }}{% endblock %}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
@@ -13,6 +13,11 @@
         <link href="{{ asset('assets/vendor/bootstrap/dist/css/bootstrap.min.css') }}" type="text/css" rel="stylesheet" >
         <link href="{{ asset('css/github-fork.css') }}" type="text/css" rel="stylesheet" >
         <link href="{{ asset('css/layout.css') }}" type="text/css" rel="stylesheet" >
+
+        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
     </head>
     <body>
 
@@ -40,7 +45,9 @@
         <script src="{{ asset('assets/vendor/jquery/dist/jquery.min.js') }}" type="text/javascript"></script>
         <script src="{{ asset('assets/vendor/bootstrap/dist/js/bootstrap.min.js') }}" type="text/javascript"></script>
 
-        {% block javascripts %}{% endblock %}
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
 
         {% if ga_tracking is defined and ga_tracking is not empty %}
         <script>
