@@ -4,7 +4,7 @@ Password Generator App
 Demo
 ----
 
-A setup version is available for use at [http://passwords.ofdan.com/]
+A setup version is available for use at [https://passwords.ofdan.com/](https://passwords.ofdan.com/)
 
 
 Installation
@@ -49,5 +49,5 @@ d) Update Front-end dependencies
 Components
 ----------
 
-* Password Generator Library [https://github.com/hackzilla/password-generator]
-* Password Generator Bundle [https://github.com/hackzilla/password-generator-bundle]
+* [Password Generator Library](https://github.com/hackzilla/password-generator)
+* [Password Generator Bundle](https://github.com/hackzilla/password-generator-bundle)
