@@ -52,16 +52,16 @@
         },
         {
             "name": "hackzilla/password-generator-bundle",
-            "version": "5.0.0",
+            "version": "5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hackzilla/password-generator-bundle.git",
-                "reference": "d89d49f1d78e17e5263a68ace1bd74ed0f41bb65"
+                "reference": "a0c3b3c3a24016532c29abf980d80cd08286c2d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/d89d49f1d78e17e5263a68ace1bd74ed0f41bb65",
-                "reference": "d89d49f1d78e17e5263a68ace1bd74ed0f41bb65",
+                "url": "https://api.github.com/repos/hackzilla/password-generator-bundle/zipball/a0c3b3c3a24016532c29abf980d80cd08286c2d0",
+                "reference": "a0c3b3c3a24016532c29abf980d80cd08286c2d0",
                 "shasum": ""
             },
             "require": {
@@ -102,9 +102,9 @@
             "description": "Password Generator Bundle",
             "support": {
                 "issues": "https://github.com/hackzilla/password-generator-bundle/issues",
-                "source": "https://github.com/hackzilla/password-generator-bundle/tree/5.0.0"
+                "source": "https://github.com/hackzilla/password-generator-bundle/tree/5.0.1"
             },
-            "time": "2022-11-09T07:53:34+00:00"
+            "time": "2022-11-09T20:38:59+00:00"
         },
         {
             "name": "monolog/monolog",

@@ -4,7 +4,8 @@
     {% set currentRoute = 'hackzilla_password_generator_form' %}
 {% endif %}
 
-<div class="navbar-brand navbar-right locale">{{ 'HEADING_LANGUAGE'|trans }}
+<div class="locale">{{ 'HEADING_LANGUAGE'|trans }}
     <a href="{{ path(currentRoute, {'_locale': 'en'}) }}"{% if app.request.locale == 'en' %} class="selected-locale"{% endif %}>en</a>
     <a href="{{ path(currentRoute, {'_locale': 'fr'}) }}"{% if app.request.locale == 'fr' %} class="selected-locale"{% endif %}>fr</a>
+    <a href="{{ path(currentRoute, {'_locale': 'bg'}) }}"{% if app.request.locale == 'bg' %} class="selected-locale"{% endif %}>bg</a>
 </div>

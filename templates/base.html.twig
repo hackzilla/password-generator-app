@@ -22,6 +22,7 @@
     <body>
 
     {% block navbar %}
+        {% include 'navbar.language.html.twig' %}
         <span id="forkongithub"><a href="https://github.com/hackzilla/password-generator-app">{{ 'HEADING_FORK_ME'|trans }}</a></span>
         {% include 'navbar.html.twig' %}
     {% endblock %}

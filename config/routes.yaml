@@ -17,13 +17,13 @@ about:
     defaults: { _controller: App\Controller\AboutController::index }
     methods:  [GET]
     requirements:
-        _locale: en|fr
+        _locale: en|fr|bg
 
 hackzilla_password_generator:
     resource: "@HackzillaPasswordGeneratorBundle/Resources/config/routing.yml"
     prefix:   /{_locale}
     requirements:
-        _locale: en|fr
+        _locale: en|fr|bg
 
 controllers:
     resource: ../src/Controller/
